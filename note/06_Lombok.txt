@@ -1,0 +1,69 @@
+06_Lombok.txt
+
+# Lombok
+
+ - 간단한 이노테이션 추가로 자바빈 스타일의 데이터 클래스를 자동 오나성해주는 라이브러리
+ 
+# Lombok 설치
+
+ 1. Google에 Lombok을 검색
+ 2. 다운로드
+ 3. 다운받은 lombok.jar을 실행
+ 4. 원하는 IDE를 선택하고 설치한다(자동으로 검색 되지 않으면 수동으로 위치를 지정)
+ 5. pom.xml에 설치된 롬북과 일치하는 버전의 dependency를 추가
+ 6. IDE 재시작
+ 7. 프로젝트 업데이트
+ 
+ # Lombok의 어노테이션
+ 
+  @Data
+  
+   - @Getter
+   - @Setter
+   - @ToString
+   - @EqualsAndHashCode
+   - @RequiredArgsConstructor
+  
+  @Getter
+   - 모든 필드에 대해 Getter를 생성
+   
+  @Setter
+   - 모든 필드에 대해 Setter를 생성
+   
+  @ToString  
+   - 해당 데이터 클래스의 toString을 생성
+   
+  @NoArgsConstructor
+   - 기본 생성자를 생성
+  
+  @RequiredArgsConstructor
+   - @NonNull이 붙은 필드만 포함된 생성자를 생성
+   
+  @AllArgsConstructor
+   - 모든 필드를 포함한 생성자를 생성 
+   
+  @EqualsAndHashCode
+   - 해당 클래스의 equals와 hashCode 메서드를 자동 생성
+   
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
