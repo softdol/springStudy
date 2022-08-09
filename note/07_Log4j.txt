@@ -20,14 +20,34 @@
  - TRACE	: 버그 추적 단계에서 보여질 상세 로그
  - ALL		: 모든 로그를 켬
  
+ 		
+ 
 # Log4j2 설정
-
+ - log4j2.xml
  - https://logging.apache.org/log4j/2.x/
  - https://logging.apache.org/log4j/2.x/maven-artifacts.html 설정 저장
  - https://pakss328.medium.com/log4j2-xml-%EC%84%A4%EC%A0%95-a3aa0d1bea2f log4j2 xml
  - https://wenmoe.github.io/spring/2020/05/01/log4j2.html 브릿지 설정
- -  <dependency>
-		<groupId>org.apache.logging.log4j</groupId>
-		<artifactId>log4j-1.2-api</artifactId>
-		<version>2.18.0</version>
-	</dependency>
+
+	<!-- log4j2 -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+    		<artifactId>log4j-api</artifactId>
+    		<version>2.18.0</version>
+  		</dependency>
+  		
+  		<dependency>
+    		<groupId>org.apache.logging.log4j</groupId>
+    		<artifactId>log4j-core</artifactId>
+    		<version>2.18.0</version>
+  		</dependency>
+  
+  		<!-- log4j2 브릿지 -->
+  		<dependency>
+    		<groupId>org.apache.logging.log4j</groupId>
+    		<artifactId>log4j-1.2-api</artifactId>
+    		<version>2.18.0</version>
+  		</dependency>
+	
+	
+	

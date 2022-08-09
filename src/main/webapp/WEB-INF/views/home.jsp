@@ -15,7 +15,12 @@
 	Name : ${coffee.name} <br>
 	Price : ${coffee.price} <br>
 	HOT : ${coffee.hot} <br>
-	${coffee}
+	${coffee} <br>
+	<hr />
+	
+	Name : ${name} <br>
+	Price : ${price} <br>
+	HOT : ${hot} <br>
 </P>
 </body>
 </html>

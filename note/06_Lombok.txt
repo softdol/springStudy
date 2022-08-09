@@ -46,7 +46,14 @@
    - 해당 클래스의 equals와 hashCode 메서드를 자동 생성
    
   
-
+<!-- lombok -->
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->		
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.18.24</version>
+		    <scope>provided</scope>
+		</dependency>
 
 
 
